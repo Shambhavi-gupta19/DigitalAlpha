@@ -1,0 +1,15 @@
+Exploratory Data Analysis means analyzing the datasets to summarize their main characteristics, often visually.
+
+This is the first step of any data analysis.
+
+Steps to summarize sample data for EDA: 
+  i)Identify Business Problem
+  ii)Data Acquisition
+  iii)Process/Clean Data
+  iv)Exploratory Analysis
+  
+Some Techniques of do EDA are:
+  Box-Plot
+  Histogram
+  Trend analysis
+  Scatter Plots
