@@ -1,0 +1,15 @@
+Company Name : Alphacom
+Number of Employees : 50,000
+Since : 30 Years
+Revenue Growth Rate : 18%
+Sectors : Banking, Healthcare and Transport clients
+
+Alphacom deals in Banking sector which requires a large amount of security so the company should use private cloud as public cloud doesn't
+provide good security. 
+
+In Healthcare sector some data need to stored in private cloud and some in public cloud like medicine names and equipments name can be 
+stored in public cloud whereas data of patient can be stored in private cloud.
+
+Transport clients doesn't need that amount of security so public cloud can be used in this sector.
+
+So Alphacom must use hybrid cloud in their organisation and Amazon's EC2 instances can be used as IaaS.
