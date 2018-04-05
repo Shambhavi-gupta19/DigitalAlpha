@@ -1,0 +1,3 @@
+According to me data structure that should be used for storing all possible moves in chess should be a 2D Array.
+
+In this 2D Array rows and columns can have all the chess pieces and the array will contain if the move is possible or not.
