@@ -88,4 +88,4 @@ for i in range(10):
 
 print("NAME\tSubject 1\tStuject 2\tSubject3")
 for i in range(10):
-    print("{}\t\t{}\t{}\t{}".format(stu[i],cm1[i],cm2[i],cm3[i]))
+    print("{}\t\t{}\t{}\t{}".format(stu[i],g1[i],g2[i],g3[i]))
