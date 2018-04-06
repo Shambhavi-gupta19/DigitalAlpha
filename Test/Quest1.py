@@ -2,6 +2,7 @@
 
 import re
 sen=[]
+updated_sen=[]
 v=0
 u=0
 l=0
@@ -36,6 +37,10 @@ print("No of lowercase characters : ",l)
 print("No of special characters : ",s)
 
 #removing special characters:
+print("Updated string is : ")
+for i in range(l):
+    updated_sen.append(re.sub('[^A-Za-z0-9 ]+', '', sen[i]))
+    print("{}.".format(updated_sen[i]))
 
 #swap last and first sentence:
 temp=sen[0]
