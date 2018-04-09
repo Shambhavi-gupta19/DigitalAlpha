@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-dataset = pd.read_excel("data.xlsx",sheet_name="Data")
+dataset = pd.read_excel("Book1.xlsx")
 week=np.array(dataset['Week'])
 price_12pk=np.array(dataset['PRICE 12PK'])
 price_18pk=np.array(dataset['PRICE 18PK'])
@@ -15,6 +15,7 @@ plt.scatter(week,price_12pk)
 A = np.vstack([week, np.ones(len(week))]).T
 m, c = np.linalg.lstsq(A, price_12pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Price_12PK")
 plt.xlabel("WEEK")
 plt.ylabel("PRICE_12PK")
@@ -24,6 +25,7 @@ plt.show()
 plt.scatter(week,price_18pk)
 m, c = np.linalg.lstsq(A, price_18pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Price_18PK")
 plt.xlabel("WEEK")
 plt.ylabel("PRICE_18PK")
@@ -32,6 +34,7 @@ plt.show()
 plt.scatter(week,price_30pk)
 m, c = np.linalg.lstsq(A, price_30pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Price_30PK")
 plt.xlabel("WEEK")
 plt.ylabel("PRICE_30PK")
@@ -40,6 +43,7 @@ plt.show()
 plt.scatter(week,case_12pk)
 m, c = np.linalg.lstsq(A, case_12pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Case_12PK")
 plt.xlabel("WEEK")
 plt.ylabel("CASE_12PK")
@@ -48,6 +52,7 @@ plt.show()
 plt.scatter(week,case_18pk)
 m, c = np.linalg.lstsq(A, case_18pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Case_18PK")
 plt.xlabel("WEEK")
 plt.ylabel("CASE_18PK")
@@ -56,6 +61,7 @@ plt.show()
 plt.scatter(week,case_30pk)
 m, c = np.linalg.lstsq(A, case_30pk)[0]
 plt.plot(week, m*week + c, 'r')
+print("y= {}x+{}".format(round(m,2),round(c,2)))
 plt.title("Week vs Case_30PK")
 plt.xlabel("WEEK")
 plt.ylabel("CASE_30PK")
