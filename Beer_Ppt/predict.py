@@ -84,10 +84,6 @@ plt.xlabel("Price 30Pk")
 plt.ylabel("Case 30PK")
 
 # forecasting 
-y_pred12 = regress1.predict(np.array([53,54,55,56,57,58,59,60]).reshape(-1,1))
-y_pred18 = regress2.predict(np.array([53,54,55,56,57,58,59,60]).reshape(-1,1))
-y_pred30 = regress3.predict(np.array([53,54,55,56,57,58,59,60]).reshape(-1,1))
-
-y_case12 = regress4.predict(y_pred12)
-y_case18 = regress5.predict(y_pred18)
-y_case30 = regress6.predict(y_pred30)
+y_case12 = regress4.predict(np.array([19,18.66,8,23,33,12,15]).reshape(-1,1))
+y_case18 = regress5.predict(np.array([15,14.66,10,50,19,10,13]).reshape(-1,1))
+y_case30 = regress6.predict(np.array([15,14.66,10,50,15.9,10,13]).reshape(-1,1))
