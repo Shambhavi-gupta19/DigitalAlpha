@@ -1,0 +1,28 @@
+{"intents": [
+	{"tag": "greeting",
+	"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hie!!"],
+	"responses": ["Hello!!!", "Good to see you again", "Hi there, how can I help?"],
+	"context_set": ""
+	},
+	{"tag": "goodbye",
+	"patterns": ["Bye", "See you later", "Goodbye"],
+	"responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
+	},
+	{"tag": "thanks",
+	"patterns": ["Thanks", "Thank you", "That's helpful","Good","Happy"],
+	"responses": ["Happy to help!", "Any time!", "My pleasure"]
+	},
+	{"tag": "weather",
+	"patterns": ["How is the weather today?","Is it going to rain today?","Is it sunny outside?","Sunny?","Raining outside?"],
+	"responses": ["It is lovely weather outside","Maybe","I hope not"]
+	},
+	{"tag": "help",
+	"patterns": ["Help","I am confused","I have a query","Please help me"],
+	"responses": ["I would be happy to help you","Tell me","How can I help you"]
+	},
+	{"tag": "rudeWord",
+	"patterns": ["F*uck","F*uck you","Fucker","You suck","I hate you"],
+	"responses": ["No bad words please","No bad words please","Sad to hear that"]
+	}
+	]
+}
